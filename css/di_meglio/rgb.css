@@ -1,0 +1,29 @@
+.quadrato {
+    height: 300px;
+    width: 300px;
+}
+
+/*  soluzione mia
+
+    #yellow {
+    height: 1200px;
+    width: 600px;
+    background-color: yellow;
+} */
+
+/* soluzione docente: */
+body {
+    background-color: yellow;
+}
+
+#red {
+    background-color: red;
+}
+
+#green {
+    background-color: green;
+}
+
+#blue {
+    background-color: blue;
+}
