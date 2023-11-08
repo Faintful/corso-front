@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <main>
+      <form>
+        <div>
+          <label for="name">Nome</label>
+          <input type="text" placeholder="Nome" name="nome" />
+        </div>
+        <div>
+          <label for="email">E-mail</label>
+          <input type="email" placeholder="esempio@esempio.com" name="email" />
+        </div>
+        <div>
+          <label for="motivo">Motivo del contatto</label>
+          <select name="motivo" id="motivo">
+            <option value="domanda">Domanda</option>
+            <option value="feedback">Feedback</option>
+            <option value="bug">Segnalazione di bug</option>
+          </select>
+        </div>
+        <div>
+          <label>Messaggio</label>
+          <input
+            type="textarea"
+            name="messaggio"
+            required
+            placeholder="Il tuo messaggio qui"
+          />
+        </div>
+        <div><input type="reset" /> <input type="submit" /></div>
+      </form>
+    </main>
+  </body>
+</html>
