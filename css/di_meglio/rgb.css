@@ -1,19 +1,11 @@
-.quadrato {
-    height: 300px;
-    width: 300px;
-}
-
-/*  soluzione mia
-
-    #yellow {
-    height: 1200px;
-    width: 600px;
-    background-color: yellow;
-} */
-
-/* soluzione docente: */
 body {
     background-color: yellow;
+}
+
+td {
+    background-color: transparent;
+    height: 300px;
+    width: 300px;
 }
 
 #red {
