@@ -1,0 +1,35 @@
+.w300 {
+    width: 300px;
+}
+
+.w600 {
+    width: 600px;
+}
+
+.w900 {
+    width: 900px;
+}
+
+.h300 {
+    height: 300px;
+}
+
+.bc-red {
+    background-color: red;
+}
+
+.bc-green {
+    background-color: green;
+}
+
+.bc-blue {
+    background-color: blue;
+}
+
+.bc-yellow {
+    background-color: yellow;
+}
+
+.bc-zero {
+    background-color: transparent;
+}
