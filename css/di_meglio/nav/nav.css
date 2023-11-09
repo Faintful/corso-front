@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: yellowgreen;
+    height: 100px;
+    padding-top: 20px;
+}
+
+.navbar {
+    background-color: lime;
+    list-style: none;
+    width: 80%;
+    height: 80%;
+    margin: auto auto;
+}
+
+li {
+    display: inline-block;
+}
+
+body {
+    background-color: blue;
+}
+
+section {
+    height: 200px;
+}
+
+#section-home {
+    background-color: yellow transparent
+}
+
+#section-catalogo {
+    background-color: lightblue
+}
+
+#section-contatti {
+    background-color: rgba(red, green, blue, .5)
+}
+
+footer {
+    height: 200px;
+    background-color: black;
+}
