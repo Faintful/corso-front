@@ -1,0 +1,37 @@
+body {
+    font-family:'Courier New', Courier, monospace;
+}
+
+.heading {
+    color: red;
+}
+
+p {
+    color: blue;
+}
+
+td p {
+    color: purple;
+}
+
+li p {
+    color:darkviolet;
+}
+
+
+footer p {
+    text-decoration: line-through;
+    letter-spacing: 2px;
+}
+
+p b {
+    font-weight: 900;
+}
+
+#presentazione {
+    color: green;
+}
+
+.xx-large {
+    font-size: xx-large;
+}
