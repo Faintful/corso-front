@@ -1,0 +1,39 @@
+
+/* indicazione prof */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background-size: 200px 200px;
+    background-image:url("./cat.jpg");
+    background-repeat: no-repeat;
+    background-position: top left;
+/*     margin: 0;
+    padding: 0;
+    box-sizing: border-box;  */
+}
+
+.contenitore {
+    margin-top: 200px;
+    margin-left: 0;
+    height: 700px;
+    width: 100%;
+    border: 1px solid red;
+    background-image: url("./kittens.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.titolo {
+    margin-top: 300px;
+    text-align: center;
+    font-size: 50px;
+}
+
+* {
+    border: 2px solid red;
+}
