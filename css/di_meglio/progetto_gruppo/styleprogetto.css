@@ -1,0 +1,84 @@
+/* CSS RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+header {
+  padding-top: 90px;
+  padding-bottom: 180px;
+  height: 320px;
+}
+
+h1 {
+  font-family: monospace;
+  text-align: center;
+  align-items: center;
+}
+
+body {
+  background-color: #f4f4f4;
+}
+
+.nipoti {
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  margin: 20px 10px;
+}
+
+.rosso {
+  background-color: red;
+}
+
+.arancione {
+  background-color: darkorange;
+}
+
+.verde {
+  background-color: green;
+}
+
+.blu {
+  background-color: blue;
+}
+
+.nero {
+  background-color: black;
+}
+
+.venti {
+  opacity: 0.2;
+}
+
+.quaranta {
+  opacity: 0.4;
+}
+
+.sessanta {
+  opacity: 0.6;
+}
+
+.ottanta {
+  opacity: 0.8;
+}
+
+.bianco{
+    background-color: white;
+    border: 5px solid black;
+}
+
+/* .padre {
+  margin: 200px auto;
+  margin-left: 2px;
+} */
+
+footer {
+  height: 400px;
+  background-color: black;
+  text-align: center;
+  align-items: center;
+  color: white;
+  padding-top: 180px;
+  padding-bottom: 180px;
+}
