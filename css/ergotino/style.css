@@ -12,13 +12,13 @@ header {
 }
 
 aside {
-  /* float: left; */
+  float: left;
   width: 30%;
   background-color: yellow;
 }
 
 main {
-  /* float: right; */
+  float: right;
   background-color: blue;
   padding: 16px;
   width: 70%;
@@ -31,11 +31,11 @@ footer {
 }
 
 .logo {
-  /* float: left; */
+  float: left;
 }
 
 .nav {
-  /* float: right; */
+  float: right;
 }
 
 main img {
