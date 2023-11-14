@@ -58,7 +58,8 @@ ul li a:hover {
 /* BACKGROUND */
 
 .background {
-  height: calc(100vh - 104px);
+  height: 100vh;
+  width: 100vw;
   background-image: url('dota_background.jpeg');
   background-repeat: no-repeat;
   background-position: center;
