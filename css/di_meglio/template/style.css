@@ -69,3 +69,14 @@ ul li a:hover {
 .background h1 {
   font-size: 100px;
 }
+
+/* FOOTER */
+
+.footer {
+    height: 20px;
+    background-color: black;
+}
+
+.footer i {
+    font-size: 10px;
+}

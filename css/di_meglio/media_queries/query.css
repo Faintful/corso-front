@@ -1,0 +1,29 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media only screen and (min-width: 500px) {
+    #titolo {
+        color: white;
+    }
+
+  #contenitore {
+    width: 200px;
+    height: 200px;
+    background-image: url('./error.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+}
+
+#titolo {
+
+}
