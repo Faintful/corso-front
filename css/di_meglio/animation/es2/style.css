@@ -1,3 +1,9 @@
+/* 
+1 - Creare un quadrato rosso con bordi gialli a destra e sinistra e bordi  viola sopra e sotto
+2 - Creare una animazione che fa cambiare colore di sfondo in arancione, poi in blu, in 2 secondi
+3 - Ripetere l'animazione all'infinito
+*/
+
 * {
   padding: 0;
   margin: 0;
@@ -6,22 +12,21 @@
 
 @keyframes animation {
   0% {
-      background-color: white;
+    background-color: white;
   }
 
   50% {
-      background-color: orange;
+    background-color: orange;
   }
 
   100% {
-      background-color: blue;
+    background-color: blue;
   }
 }
 
 body {
   animation: animation 2s ease-in-out infinite;
-  width: 100vh;
-  height: 100vw;
+  height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;

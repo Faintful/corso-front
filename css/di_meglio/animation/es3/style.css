@@ -1,0 +1,45 @@
+/* 
+1 - Create un cerchio
+2 - traslate il cerchio in diagonale lungo l'asse x e y (di quanto? a piacere vostro)
+3 - Fatelo svanire ed apparire di nuovo mentre si sposta (dolcemente!)
+4 - Anche in questo caso, animazione all'infinito!
+transform: translate(50px, 20px) rotate(30deg); 
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@keyframes animation {
+  0% {
+    transform: translate(0, 0);
+  }
+
+  50% {
+    transform: translate(300px, -300px);
+    background-color: transparent;
+    border-color: transparent;
+  }
+
+  100% {
+    transform: translate(0, 0);
+  }
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+
+.cerchio {
+  animation: animation 5s ease-in infinite;
+  border-radius: 100px;
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+  border: 3px solid red;
+}

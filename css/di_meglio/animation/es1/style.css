@@ -1,0 +1,40 @@
+/* 
+1 - Create un rettangolo
+2 - Utilizzate il css per applicare una traslazione di 50px sull'asse x e 20px sull'asse y
+3 - applicate anche una rotazione di 30 gradi all'elemento
+4 - riportate l'elemento alla sua forma originale
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+@keyframes animation {
+  0% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+
+  50% {
+    transform: translate(50px, 20px) rotate(30deg);
+  }
+
+  100% {
+    transform: translate(0px, 0px) rotate(0deg);
+  }
+}
+
+.rettangolo {
+  animation: animation 2s ease-in-out;
+  width: 400px;
+  height: 200px;
+  background-color: blue;
+}
