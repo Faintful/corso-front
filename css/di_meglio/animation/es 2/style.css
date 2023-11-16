@@ -1,0 +1,39 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@keyframes animation {
+  0% {
+      background-color: white;
+  }
+
+  50% {
+      background-color: orange;
+  }
+
+  100% {
+      background-color: blue;
+  }
+}
+
+body {
+  animation: animation 2s ease-in-out infinite;
+  width: 100vh;
+  height: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.quadrato {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  border: 5px solid;
+  border-left-color: yellow;
+  border-right-color: yellow;
+  border-top-color: purple;
+  border-bottom-color: purple;
+}
