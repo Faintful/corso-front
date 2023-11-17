@@ -1,0 +1,23 @@
+Margini :
+m— [20px]
+mt— [20px]
+mb— [20px]
+mr— [2 Opx]
+ml-[20px]
+Padding :
+P— [20px]
+pr— [20pxJ
+p1- [20px]
+margin :
+20px;
+margin—top: 20px;
+margin-bottom: 20px;
+margin—right: 20px;
+margin—left: 20px;
+padding :
+2 Opx;
+padding—top: 20px;
+padding-bottop: 20px;
+padding—
+right: 20px;
+padding—left: 20px;
