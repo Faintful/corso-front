@@ -1,0 +1,41 @@
+/* Exercise 40_01_01.00
+
+ We want to write a function that adds two numbers.
+ 1. Create a function that takes two parameters, adds the parameters together, and returns the result.
+ 2. Set up two different variables with two different values.
+ 3. Use your function on the two variables, and output the result using
+ console.log.
+ 4. Create a second call to the function using two more numbers as arguments
+ sent to the function. */
+
+// let a = 3;
+// let b = 4;
+// function sum(a, b) {
+//    let innerSum = a + b;
+//    return innerSum;
+// }
+
+
+// console.log("la somma e': " + sum(a, b));
+// console.log("la somma e': " + sum(3, 8))
+
+// ## Exercise 40_01_01.10
+
+// We are going to create a program that will randomly describe an inputted name.
+// 1. Create an array of descriptive words.
+// 2. Create a function that contains a prompt asking the user for a name.
+// 3. Select a random value from the array using Math.random.
+// 4. Output into the console the prompt value and the randomly selected array value.
+// 5. Invoke the function.
+
+let arr1 = ["bello", "brutto", "cattivo", "buono"];
+let pName;
+function name() {
+    pName = prompt("Scegli un nome per sto sventurato:");
+}
+
+// let rngNumber = Math.floor(Math.random()*4);
+let rngNumber = Math.floor(Math.random()*arr1.length); //Utilizzo corretto del metodo length() in questo modo le possibilità dei numeri si adattano alla lunghezza del array
+//console.log(arr1.length(0))  Il metodo length() non accetta parametri, ma non era quello che ci serviva.
+// name()
+console.log(arr1[rngNumber]) // Modo corretto per accedere ad una variabile
