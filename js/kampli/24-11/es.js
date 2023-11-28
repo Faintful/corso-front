@@ -5,7 +5,7 @@
 - Call the function to reverse an example string.
  */
 
-function reverseString(string) {
+/* function reverseString(string) {
   return string.map((char, i) => {
     string.charAt(i);
   });
@@ -13,3 +13,4 @@ function reverseString(string) {
 
 let array = reverseString('Carlo');
 console.log(array);
+*/
