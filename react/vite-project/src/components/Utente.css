@@ -1,0 +1,25 @@
+.mainContainer {
+    background-color: burlywood;
+}
+
+.container {
+    background-color: blanchedalmond;
+    border-radius: 50px;
+    margin: 1px, auto;
+}
+
+p {
+    font-size: 30px;
+}
+
+.container:nth-child(1) {
+    color: blue;
+}
+
+.container > p :nth-child(2) {
+    color: blue;
+}
+
+.container > p :nth-child(3) {
+    color: blue;
+}
