@@ -1,7 +1,11 @@
-import { useState } from 'react';
-
-export default function List({ task }) {
-  const [listState, setListState] = useState([]);
-  setListState((prevState) => [...prevState, task]);
-  return <div>{listState}</div>;
+export default function List({ taskArray }) {
+  return (
+    <div>
+      {taskArray.map((task, index) => (
+        <div key={index}>
+          <p>{task}</p>
+        </div>
+      ))}
+    </div>
+  );
 }

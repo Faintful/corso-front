@@ -3,14 +3,14 @@ import './App.css';
 import Insert from './components/insert/Insert';
 
 function App() {
-  const [state, setState] = useState('');
-  function submitHandler(state) {
-    setState(state);
+  const [taskArrayState, setTaskArrayState] = useState([]);
+  function submitHandler(task) {
+    setTaskArrayState((prevState) => [...prevState, task]);
   }
   return (
     <>
       <Insert submitHandler={submitHandler} />
-      <List task={state} />
+      <List taskArray={taskArrayState} />
     </>
   );
 }
