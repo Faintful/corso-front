@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Insert from './components/insert/Insert';
-import List from './components/list/List';
+import TaskList from './components/list/TaskList';
 
 function App() {
   const [taskArrayState, setTaskArrayState] = useState([]);
@@ -11,7 +11,7 @@ function App() {
   return (
     <>
       <Insert submitHandler={submitHandler} />
-      <List taskArray={taskArrayState} />
+      <TaskList taskArray={taskArrayState} />
     </>
   );
 }
