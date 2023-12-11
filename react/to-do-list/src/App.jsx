@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import './App.css';
 import Insert from './components/insert/Insert';
+import List from './components/list/List';
 
 function App() {
   const [taskArrayState, setTaskArrayState] = useState([]);
