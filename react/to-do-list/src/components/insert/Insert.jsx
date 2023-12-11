@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import './Insert.css';
 
 export default function Insert({ submitHandler }) {
   const [textState, setTextState] = useState('');
@@ -6,11 +7,11 @@ export default function Insert({ submitHandler }) {
     setTextState(value);
   }
   return (
-    <>
+    <div className='insert-container'>
       <input placeholder='task' type='text' onChange={changeHandler} />
-      <button onClick={() => submitHandler(textState)}>
+      <div className='button' onClick={() => submitHandler(textState)}>
         Aggiungi una task
-      </button>
-    </>
+      </div>
+    </div>
   );
 }

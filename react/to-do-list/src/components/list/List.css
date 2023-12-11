@@ -1,0 +1,19 @@
+.list-container {
+    height: 50vh;
+    width: 100vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: black;
+    list-style: none;
+}
+
+.task {
+    border-radius: 10px;
+    box-shadow: 0px 7px 12px 1px grey;
+    padding: 5px;
+    margin: 10px auto;
+    font-size: large;
+}

@@ -1,0 +1,24 @@
+.insert-container {
+  height: 50vh;
+  width: 100vw;
+  background-color: rgba(67, 129, 241, 255);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  margin-top: 10px;
+  background-color: rgba(39, 69, 155, 255);
+  border-radius: 10px;
+  height: 50px;
+  width: 175px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button:hover {
+  cursor: pointer;
+}

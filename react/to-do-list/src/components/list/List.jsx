@@ -1,9 +1,13 @@
+import './List.css';
+
 export default function List({ taskArray }) {
   return (
-    <div>
+    <ul className='list-container'>
       {taskArray.map((task, index) => (
-        <div key={index}>{task}</div>
+        <li className='task' key={index}>
+          {task}
+        </li>
       ))}
-    </div>
+    </ul>
   );
 }
